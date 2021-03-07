@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tennisapp.Fragments.homeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_racquets"
+        android:name="com.example.tennisapp.Fragments.racquetsFragment"
+        android:label="@string/menu_racquets"
+        tools:layout="@layout/fragment_racquets" >
+        <action
+            android:id="@+id/action_nav_racquets_to_createUpdateFragment"
+            app:destination="@id/createUpdateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_shoes"
+        android:name="com.example.tennisapp.Fragments.shoesFragment"
+        android:label="@string/menu_shoes"
+        tools:layout="@layout/fragment_shoes" />
+    <fragment
+        android:id="@+id/nav_technique"
+        android:name="com.example.tennisapp.Fragments.techniqueFragment"
+        android:label="@string/menu_technique"
+        tools:layout="@layout/fragment_technique" />
+    <fragment
+        android:id="@+id/nav_view_pager"
+        android:name="com.example.tennisapp.Fragments.HostFragment"
+        android:label="@string/menu_rules"
+        tools:layout="@layout/fragment_view_pager" />
+    <fragment
+        android:id="@+id/createUpdateFragment"
+        android:name="com.example.tennisapp.CreateUpdateFragment"
+        android:label="fragment_create_update"
+        tools:layout="@layout/fragment_create_update" />
+
+</navigation>

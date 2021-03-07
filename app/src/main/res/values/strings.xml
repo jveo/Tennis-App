@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TennisApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_rules">Tennis Rules</string>
+    <string name="menu_shoes">Proper Shoes</string>
+    <string name="menu_racquets">Racquets</string>
+    <string name="menu_technique">Techniques</string>
+
+    <string name="wood_description">The wooden racket stayed mostly the same for about 100 years! Excluding laminated wooden rackets,
+        which started to gain popularity in 1947. This was a game-changer for many players.
+    </string>
+
+    <string name="metal_description">The use of metal in tennis racquet design intrigued manufacturers as early as the 1890s. The challenges of wood racquets—namely breakage of the frame, warping, and breaking of strings—led individuals and companies to experiment with other materials in racquet construction.
+        It was not until the 1920s when the Dayton Racquet Co. exploded onto the scene with a marketable product.
+    </string>
+
+    <string name="composite_description">composite tennis racquets allow the distribution of the weight around the racket to be managed much more accurately and specifically. This means that rackets can be weighted to suit more playing and swing styles, and to allow both weaker and stronger players to have characteristics that suit them,
+        including weight, balance, and swing weight
+    </string>
+
+    <string name="titanium_description">Titanium is just as strong as graphite but more Lightweigt. It’s actually better in terms of stiffness,
+        and it helps the whole tennis racket frame take a greater impact.
+    </string>
+
+    <string name="graphite_description">Graphite is much heavier than titanium but also is very strong when you compare it to other elements. This makes it harder to swing whenever you’re trying to do a power serve.
+        But, if you are successful in serving the ball at a high impact, then you’re going to see the increased power behind that serve.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

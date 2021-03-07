@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelperFragments.ViewPagerFragment">
+
+    <TextView
+        android:id="@+id/viewpagerRules"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:text="@string/menu_rules"
+        android:textAlignment="center"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/viewpagerDesc"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/viewpagerImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tennis1" />
+</LinearLayout>
